@@ -1,49 +1,13 @@
-=======
-# Decentratwitter
+## Twitter for NFTs
+This is a guided project that I did as I wanted to learn about blockchain. 
 
-## Technology Stack & Tools
+This is a marketplace where people can share their NFTs and others can complement those by donating crypto through a wallet. 
 
-- Solidity (Writing Smart Contract)
-- Javascript (React & Testing)
-- [Ethers](https://docs.ethers.io/v5/) (Blockchain Interaction)
-- [Hardhat](https://hardhat.org/) (Development Framework)
-- [Ipfs](https://ipfs.io/) (Metadata storage)
-- [React routers](https://v5.reactrouter.com/) (Navigational components)
+# How to run
+1. To run the project, first navigate to the directory in your terminal
+2. Run "npm install"
+3. Run "npm start" to use the locally hosted version.
+4. You will be needing to set up a MetaMask account with Hardhat ETH to fully access the project.
 
-## Requirements For Initial Setup
-- Install [NodeJS](https://nodejs.org/en/), should work with any node version below 16.5.0
-- Install [Hardhat](https://hardhat.org/)
-
-## Setting Up
-### 1. Clone/Download the Repository
-
-### 2. Install Dependencies:
-```
-$ cd decentratwitter
-$ npm install
-```
-### 3. Boot up local development blockchain
-```
-$ cd decentratwitter
-$ npx hardhat node
-```
-
-### 4. Connect development blockchain accounts to Metamask
-- Copy private key of the addresses and import to Metamask
-- Connect your metamask to hardhat blockchain, network 127.0.0.1:8545.
-- If you have not added hardhat to the list of networks on your metamask, open up a browser, click the fox icon, then click the top center dropdown button that lists all the available networks then click add networks. A form should pop up. For the "Network Name" field enter "Hardhat". For the "New RPC URL" field enter "http://127.0.0.1:8545". For the chain ID enter "31337". Then click save.  
-
-
-### 5. Run deploy script to migrate smart contracts
-`$ npx hardhat run scripts/deploy.js --network localhost`
-
-### 6. Run Tests
-`$ npx hardhat test`
-
-### 7. Launch Frontend
-`$ npm run start`
-
-License
-----
-MIT
-
+As this was just a guided project and my knowlegde is still limited I will be working on this on this some time later.
+It does look cool tho.
